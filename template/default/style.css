@@ -1,0 +1,128 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+	overflow: hidden;
+
+}
+html {
+	overflow: auto;
+}
+h1 {
+	display: block;
+ 	color: #ffffff;
+ 	background-color: #[color1];
+ 	padding: 3;
+ 	padding-left: 16px;
+ 	clear: both;
+ 	xpage-break-before: always;
+ 	border-top-left-radius: 15px;
+ 	border-top-right-radius: 15px;
+ 	text-shadow: 0 2px 0 rgba(0, 0, 0, 1);
+}
+
+h2 {
+	display: block;
+	border-left: 2px solid #[color1];
+	border-top: 2px solid #[color1];
+ 	color: #000000;
+ 	padding: 3;
+ 	padding-left: 16px;
+ 	border-top-left-radius: 15px;
+}
+
+h3 {
+	color: #[color1];
+	font-weight: bold;
+}
+
+pre {
+	border-radius: 10;
+	display: block;
+	background-color: #e0e0e0;
+	padding: 10;
+	
+}
+a {
+	color: #[color1];
+	text-decoration: underline;
+}
+
+blockquote {
+	font-style: italic;
+	border-radius: 10;
+	display: block;
+	background-color: #e0e0e0;
+	padding: 10;
+}
+
+
+
+
+
+table.infotable {
+	width: 100%;
+}
+table.infotable th {
+	background-color: #000000;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: left;
+	padding: 3;
+}
+table.infotable td {
+	border: 1px solid #e0e0e0;
+	vertical-align: top;
+}
+
+
+
+
+
+
+
+div.formitem {
+	clear: both;
+	xborder: 1px solid #00ff00;
+}
+
+div.formitem label  {
+	display: block;
+	width: 100px;
+	float: left;
+	text-align: right;
+	margin-right: 5px;
+	margin-top: 1px;
+	background-color: #e0e0e0;
+	padding: 3;
+	overflow: hidden;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.500);
+	border-top-left-radius: 50;
+	border-bottom-left-radius: 50;
+}
+
+span.value {
+	display: inline-block;
+	padding: 3px;
+	width: 300;
+	color: #808080;
+	padding: 3;
+	overflow: hidden;
+}
+
+div.task {
+	border: 2px solid #808080;
+	border-radius: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 15px;
+	box-shadow: 1px 3px 10px 0 #CCCCCC;
+}
+div.task_status_closing {
+	xbackground-color: #e0e0ff;
+	xborder: 2px solid #0000ff;
+}
+div.task_status_CLOSED {
+	xbackground-color: #e0ffe0;
+	xborder: 2px solid #00ff00;
+}
+div.task_status_closing h3, div.task_status_closed h3 {
+	text-decoration: line-through;
+}

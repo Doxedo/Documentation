@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<ldocmap>
+    <name>ldoc-user-guide</name>
+    
+    <title>LDoc User Guide</title>
+    <title lang="nl-NL">LDoc gebruikershandleiding</title>
+    <title lang="zh-CN">LDoc用户指南</title>
+    <title lang="ru-RU">LDoc Руководство пользователя</title>
+    
+    <subtitle>Getting started authoring and publishing using LDoc</subtitle>
+    <subtitle lang="ru-RU">Начало работы и публикации использованием LDoc</subtitle>
+    <subtitle lang="nl-NL">Beginnen met schrijven en publiceren met LDoc</subtitle>
+    <subtitle lang="zh-CN">入门的创作和出版使用LDoc</subtitle>
+    
+    <toctitle>Table of Contents</toctitle>
+    <toctitle lang="nl-NL">Inhouds opgave</toctitle>
+    <toctitle lang="zh-CN">索引</toctitle>
+    <toctitle lang="ru-RU">Оглавление</toctitle>
+    
+    <copyright>LinkORB B.V. 2009-2014</copyright>
+    <author>Joost Faassen</author>
+    <version>0.2</version>
+
+    <topic href="intro.md">
+        <topic href="prereqs.md" />
+        <topic href="gettingstarted.md" />
+        <topic href="syntax.md" />
+        <topic href="ldoc-user-guide-supplement.md" />
+        <topic href="translation.md" />
+    </topic>
+
+
+    <variable key="product">Doxedo</variable>
+    <variable key="website">www.doxedo.com</variable>
+
+    <variable key="buildroot">/buildit/</variable>
+    <variable key="skinpath">template/default/</variable> 
+
+    <language name="src">
+        <variable key="title">LDoc User Guide</variable>
+        <variable key="website">www.doxedo.nl</variable>
+
+        <target
+            name="pdffull"
+            class="Doxedo\Core\Target\SinglePage">
+            <variable key="website">www.doxedo-pdf.nl</variable>
+        </target>
+
+    </language>
+    
+    <!--
+    <language name="ru-RU" />
+    <language name="zh-CN" />
+    <language name="nl-NL" />
+-->
+    
+</ldocmap>
